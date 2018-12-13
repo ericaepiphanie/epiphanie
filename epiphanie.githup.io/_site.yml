@@ -30,7 +30,7 @@ navbar:
     href: https://www.facebook.com/epiphanie.nikiema
 output:
   html_document:
-    theme: lumen
+    theme: cosmo
     highlight: textmate
     css: styles.css
     lib_dir: site_libs
