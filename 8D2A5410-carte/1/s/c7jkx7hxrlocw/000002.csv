@@ -1,0 +1,4 @@
+"0","library(readxl)
+"
+"2","le package ‘readxl’ a été compilé avec la version R 3.5.1"
+"0","Code <- read_excel(""C:/Users/NIKIEMA Erica/Desktop/ericaepiphanie.github.io/ericaepiphanie.github.io/Code-Delegation-Tunisie.xlsx"")"

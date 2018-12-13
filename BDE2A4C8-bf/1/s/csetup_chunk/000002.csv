@@ -1,0 +1,5 @@
+"0","library(flexdashboard)"
+"0","library(raster)"
+"0","library(leaflet)"
+"0","library(shiny)"
+"0","tnMAPDELE<- getData(name=""GADM"",  country=""BFA"", level=2)"
