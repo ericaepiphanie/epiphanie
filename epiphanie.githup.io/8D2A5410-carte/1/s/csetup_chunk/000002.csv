@@ -1,0 +1,19 @@
+"0","library(flexdashboard)"
+"2","le package ‘flexdashboard’ a été compilé avec la version R 3.5.1"
+"0","library(raster)"
+"2","le package ‘raster’ a été compilé avec la version R 3.5.1"
+"2","Le chargement a nécessité le package : sp
+"
+"2","le package ‘sp’ a été compilé avec la version R 3.5.1"
+"0","library(leaflet)"
+"2","le package ‘leaflet’ a été compilé avec la version R 3.5.1"
+"0","library(shiny)"
+"0","tnMAPDELE<- getData(name=""GADM"",  country=""TUN"", level=1)"
+"2","trying URL 'https://biogeo.ucdavis.edu/data/gadm3.6/Rsp/gadm36_TUN_1_sp.rds'
+"
+"2","Content type ''"
+"2"," length 326646 bytes (318 KB)
+"
+"2","downloaded 318 KB
+
+"
