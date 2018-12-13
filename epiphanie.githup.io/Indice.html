@@ -9,22 +9,19 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="Erica NIKIEMA" />
 
 
-<title>Indice_de_stabilite</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
-<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
 <script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
 <script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
@@ -109,34 +106,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 45px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 
 .section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 </style>
 
@@ -204,9 +201,6 @@ $(document).ready(function () {
     <li>
       <a href="cv.html">cv RMarkdown</a>
     </li>
-    <li>
-      <a href="cv.pdf">CV</a>
-    </li>
   </ul>
 </li>
 <li class="dropdown">
@@ -219,7 +213,24 @@ $(document).ready(function () {
     <li>
       <a href="indice.html">DataMining</a>
     </li>
-    <li class="dropdown-header">Arbre de decision</li>
+    <li>
+      <a href="Arbre.html">Arbre de decision</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Dashboard
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="bf.html">Burkina Faso</a>
+    </li>
+    <li>
+      <a href="carte.html">Tunisie</a>
+    </li>
   </ul>
 </li>
       </ul>
@@ -231,14 +242,8 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="http://www.facebook.com/epiphanie.nikiema">
+  <a href="https://github.com/ericaepiphanie">
     <span class="fa fa-github fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a>
-    <span class="fa fa-linkedin fa-lg"></span>
      
   </a>
 </li>
@@ -263,8 +268,6 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Indice_de_stabilite</h1>
-<h4 class="author"><em>Erica NIKIEMA</em></h4>
 
 </div>
 
@@ -344,23 +347,23 @@ data=data[,-6]
 compar1=compar_partition(data,3,120,1,6)
 indice1=Repeter(compar1,100)
 indice1</code></pre>
-<pre><code>##   [1] 1.0000000 0.9505594 0.4516520 0.4381192 1.0000000 0.4382098 0.5641075
-##   [8] 1.0000000 0.9754248 1.0000000 0.9513588 0.9509438 0.4498534 1.0000000
-##  [15] 1.0000000 0.4134823 1.0000000 0.9760933 1.0000000 1.0000000 0.9525424
-##  [22] 0.4519874 0.9745043 0.4221696 0.8662761 0.9761940 0.9754248 0.9753611
-##  [29] 0.4400407 1.0000000 0.4546277 0.6283591 0.9413020 0.9755474 0.4417691
-##  [36] 0.9756316 1.0000000 0.4532218 0.4262205 0.9744399 1.0000000 1.0000000
-##  [43] 0.9742458 1.0000000 0.7471543 0.9754047 1.0000000 0.4405954 0.8157931
-##  [50] 0.4455527 1.0000000 0.6152738 0.9514483 0.4200573 1.0000000 1.0000000
-##  [57] 0.9743248 0.4358919 1.0000000 1.0000000 1.0000000 0.9754580 0.4415889
-##  [64] 0.9508786 0.9751010 0.9261613 0.9765047 1.0000000 0.9500446 1.0000000
-##  [71] 0.6152738 0.9740825 0.9765805 0.9762035 0.4212701 0.9749204 1.0000000
-##  [78] 0.9752026 0.4439892 0.4149225 1.0000000 0.4223102 0.4350430 0.4438102
-##  [85] 0.9763738 0.9752717 0.4548503 0.4496927 0.9769639 1.0000000 0.4568232
-##  [92] 1.0000000 0.9748514 0.4621158 0.4143725 1.0000000 0.4618626 0.9751906
-##  [99] 1.0000000 0.9752026</code></pre>
+<pre><code>##   [1] 0.7189199 0.4404580 0.8841643 0.9758226 0.9745782 1.0000000 0.4388384
+##   [8] 1.0000000 0.4388110 0.9762035 0.9754580 1.0000000 1.0000000 0.9757235
+##  [15] 0.4314000 0.9379959 0.4641062 1.0000000 0.9752026 0.4319205 1.0000000
+##  [22] 0.4391070 0.9758226 0.9757869 1.0000000 0.4565408 1.0000000 0.4380582
+##  [29] 0.9746611 0.4332753 1.0000000 0.9755474 1.0000000 0.9756316 1.0000000
+##  [36] 0.9754580 0.4388849 1.0000000 1.0000000 0.4540384 1.0000000 1.0000000
+##  [43] 0.4223629 0.9754716 0.9762035 0.9764370 0.4519167 0.9509438 1.0000000
+##  [50] 0.4430097 1.0000000 0.4539347 0.9746119 1.0000000 1.0000000 0.9488875
+##  [57] 0.9751182 0.4537402 0.9753611 1.0000000 0.4196030 1.0000000 0.9749204
+##  [64] 1.0000000 0.4380502 0.4342639 0.4616012 0.9757021 0.9748514 0.9751010
+##  [71] 0.4319205 0.9739477 1.0000000 1.0000000 1.0000000 1.0000000 0.6390238
+##  [78] 1.0000000 0.4364906 1.0000000 0.5976629 0.9525424 0.9766641 0.4383885
+##  [85] 1.0000000 1.0000000 0.9479867 1.0000000 1.0000000 1.0000000 1.0000000
+##  [92] 1.0000000 1.0000000 0.9876015 0.6283591 1.0000000 0.9748379 0.4405945
+##  [99] 0.4485310 0.9744127</code></pre>
 <pre class="r"><code>mean(indice1)</code></pre>
-<pre><code>## [1] 0.8048408</code></pre>
+<pre><code>## [1] 0.8303347</code></pre>
 </div>
 
 
