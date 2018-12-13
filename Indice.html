@@ -9,22 +9,19 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="Erica Nikièma" />
 
 
-<title>Indice_de_stabilite</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
-<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
 <script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
 <script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
@@ -109,34 +106,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 45px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 
 .section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 </style>
 
@@ -196,7 +193,7 @@ $(document).ready(function () {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    My CV
+    Compétences
      
     <span class="caret"></span>
   </a>
@@ -204,17 +201,37 @@ $(document).ready(function () {
     <li>
       <a href="cv.html">cv RMarkdown</a>
     </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Projets
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="cv.pdf">CV</a>
+      <a href="indice.html">DataMining</a>
+    </li>
+    <li>
+      <a href="Arbre.html">Arbre de decision</a>
     </li>
   </ul>
 </li>
-<li>
-  <a href="indice.html">
-    <span class="fa fa-Projet"></span>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Dashboard
      
-    Projets
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="bf.html">Burkina Faso</a>
+    </li>
+    <li>
+      <a href="carte.html">Tunisie</a>
+    </li>
+  </ul>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -225,7 +242,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="https://www.facebook.com/epiphanie.nikiema">
+  <a href="https://github.com/ericaepiphanie">
     <span class="fa fa-github fa-lg"></span>
      
   </a>
@@ -251,9 +268,6 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Indice_de_stabilite</h1>
-<h4 class="author"><em>Erica Nikièma</em></h4>
-<h4 class="date"><em>2 décembre 2018</em></h4>
 
 </div>
 
@@ -333,23 +347,23 @@ data=data[,-6]
 compar1=compar_partition(data,3,120,1,6)
 indice1=Repeter(compar1,100)
 indice1</code></pre>
-<pre><code>##   [1] 0.9767547 0.9752026 0.4478330 0.9747741 0.9751906 1.0000000 1.0000000
-##   [8] 0.4407459 0.4421160 1.0000000 1.0000000 1.0000000 1.0000000 0.9752026
-##  [15] 1.0000000 0.9750551 0.4582601 0.9750067 0.4425621 0.4366776 0.4594419
-##  [22] 1.0000000 0.4150845 1.0000000 1.0000000 1.0000000 1.0000000 0.4423832
-##  [29] 0.4289656 0.4547344 0.9536658 1.0000000 0.9755474 0.4626923 0.9792686
-##  [36] 0.4413344 0.6183527 0.9763738 1.0000000 0.4341762 0.4359563 0.4283008
-##  [43] 0.4540957 0.4417194 0.8661975 0.9310184 0.9275017 0.9759124 1.0000000
-##  [50] 1.0000000 0.4297211 0.9751010 1.0000000 0.9768155 0.9750696 0.4535440
-##  [57] 0.4356066 0.9744127 0.8606288 0.9758336 0.4429463 1.0000000 0.4360238
-##  [64] 1.0000000 0.4464483 0.4408482 0.4295394 0.9749574 0.4414353 1.0000000
-##  [71] 1.0000000 0.4484892 0.4109247 1.0000000 0.4191226 0.4514494 1.0000000
-##  [78] 0.9745043 0.9757235 1.0000000 0.9752026 0.4360255 0.4498560 0.9752997
-##  [85] 0.9740825 0.9764696 1.0000000 0.9009833 1.0000000 1.0000000 0.4420259
-##  [92] 1.0000000 0.4588196 0.9758226 1.0000000 1.0000000 1.0000000 0.9762035
-##  [99] 0.9753611 0.8375430</code></pre>
+<pre><code>##   [1] 0.7189199 0.4404580 0.8841643 0.9758226 0.9745782 1.0000000 0.4388384
+##   [8] 1.0000000 0.4388110 0.9762035 0.9754580 1.0000000 1.0000000 0.9757235
+##  [15] 0.4314000 0.9379959 0.4641062 1.0000000 0.9752026 0.4319205 1.0000000
+##  [22] 0.4391070 0.9758226 0.9757869 1.0000000 0.4565408 1.0000000 0.4380582
+##  [29] 0.9746611 0.4332753 1.0000000 0.9755474 1.0000000 0.9756316 1.0000000
+##  [36] 0.9754580 0.4388849 1.0000000 1.0000000 0.4540384 1.0000000 1.0000000
+##  [43] 0.4223629 0.9754716 0.9762035 0.9764370 0.4519167 0.9509438 1.0000000
+##  [50] 0.4430097 1.0000000 0.4539347 0.9746119 1.0000000 1.0000000 0.9488875
+##  [57] 0.9751182 0.4537402 0.9753611 1.0000000 0.4196030 1.0000000 0.9749204
+##  [64] 1.0000000 0.4380502 0.4342639 0.4616012 0.9757021 0.9748514 0.9751010
+##  [71] 0.4319205 0.9739477 1.0000000 1.0000000 1.0000000 1.0000000 0.6390238
+##  [78] 1.0000000 0.4364906 1.0000000 0.5976629 0.9525424 0.9766641 0.4383885
+##  [85] 1.0000000 1.0000000 0.9479867 1.0000000 1.0000000 1.0000000 1.0000000
+##  [92] 1.0000000 1.0000000 0.9876015 0.6283591 1.0000000 0.9748379 0.4405945
+##  [99] 0.4485310 0.9744127</code></pre>
 <pre class="r"><code>mean(indice1)</code></pre>
-<pre><code>## [1] 0.7870094</code></pre>
+<pre><code>## [1] 0.8303347</code></pre>
 </div>
 
 

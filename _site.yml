@@ -11,26 +11,30 @@ navbar:
     menu: 
       - text: cv RMarkdown
         href: cv.html
-      - text: CV
-        href: cv.pdf
   - text: Projets
     menu:
       - text: DataMining
         href: indice.html
       - text: Arbre de decision
+        href: Arbre.html
+  - text: Dashboard
+    menu:
+      - text: Burkina Faso
+        href: bf.html  
+      - text: Tunisie
+        href: carte.html
   right:
   - icon: fa-envelope fa-lg
     href: contact.html
   - icon: fa-github fa-lg
-    href: http://www.facebook.com/epiphanie.nikiema
-  - icon: fa-linkedin fa-lg
+    href: https://github.com/ericaepiphanie
   - icon: fa-linkedin fa-lg
     href: https://linkedin.com/in/erica-nikiema-a28452158/
   - icon: fa-facebook fa-lg
     href: https://www.facebook.com/epiphanie.nikiema
 output:
   html_document:
-    theme: yeti
+    theme: united
     highlight: textmate
     css: styles.css
     lib_dir: site_libs
