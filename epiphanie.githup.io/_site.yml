@@ -7,14 +7,14 @@ navbar:
   - text: Home
     icon: fa-home
     href: index.html
-  - text: Compétences 
+  - text: CompÃ©tences 
     menu: 
       - text: cv RMarkdown
         href: cv.html
   - text: Projets
     menu:
       - text: DataMining
-        href: indice.html
+        href: Indice.html
       - text: Arbre de decision
         href: Arbre.html
   - text: Dashboard
